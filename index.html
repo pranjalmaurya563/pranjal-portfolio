@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Pranjal Maurya's personal developer portfolio">
+
+  <title>Pranjal Maurya | Developer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <a href="#home" class="brand">
+      <span class="brand-logo">PM</span>
+      <span>pranjal.</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="contact-link">Contact ↗</a>
+    </nav>
+    
+    <button class="theme-toggle" id="themeToggle"
+            type="button"
+            aria-label="Switch to dark mode"
+            title="Switch theme">
+    <span id="themeIcon" aria-hidden="true">☾</span>
+    </button>
+
+    <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">
+        ☰
+    </button>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">
+          <span class="status-dot"></span>
+          OPEN TO INTERNSHIPS & OPPORTUNITIES
+        </p>
+
+        <p class="hero-greeting">Hello, I'm</p>
+
+        <h1>Pranjal <span class="accent italic">Maurya.</span></h1>
+
+        <h2>I build for the <span id="changingText">web</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          I'm a BCA student and aspiring software developer,
+          passionate about web development, building useful
+          digital experiences, and learning new technologies.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-dark">Explore my work ↗</a>
+          <a href="#contact" class="btn btn-outline">Let's connect</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="profile-card">
+          <div class="profile-card-top">
+            <span>PORTFOLIO / 2026</span>
+            <span>•••</span>
+          </div>
+
+          <div class="profile-placeholder">
+            <img src="assets/profile.jpg"
+                 alt="Pranjal Maurya"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+            <div class="profile-fallback">PM</div>
+          </div>
+
+          <p class="eyebrow">ASPIRING SOFTWARE DEVELOPER</p>
+          <h3>Curious mind.<br><span class="accent italic">Builder's mindset.</span></h3>
+        </div>
+
+        <div class="floating-note note-top">
+          ✳ Learning by building
+        </div>
+
+        <div class="floating-note note-bottom">
+          &lt;/&gt; Web Development
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="about-heading">
+        <p class="eyebrow">01 / ABOUT ME</p>
+        <h2>Building skills.<br>
+          <span class="italic muted">One project at a time.</span>
+        </h2>
+      </div>
+
+      <div class="about-description">
+        <h3>
+          I'm a technology enthusiast who enjoys turning ideas
+          into practical, thoughtfully designed solutions.
+        </h3>
+
+        <p>
+          I'm pursuing my Bachelor of Computer Applications (BCA)
+          and strengthening my foundation in programming and
+          software development through hands-on projects.
+        </p>
+
+        <p>
+          I believe the best way to learn is by building,
+          experimenting, solving problems, and improving
+          with every project.
+        </p>
+      </div>
+
+      <div class="principles">
+        <article>
+          <span>01</span>
+          <h4>Curiosity first</h4>
+          <p>Ask questions. Explore ideas.</p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h4>Learn by building</h4>
+          <p>Turn concepts into projects.</p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h4>Keep improving</h4>
+          <p>Make every iteration better.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <p class="eyebrow">02 / WHAT I WORK WITH</p>
+      <h2>Tools for turning<br>
+        <span class="italic muted">ideas into reality.</span>
+      </h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span>01</span>
+          <h3>Frontend</h3>
+          <p>HTML · CSS · JavaScript · React</p>
+        </article>
+
+        <article class="skill-card">
+          <span>02</span>
+          <h3>Backend</h3>
+          <p>Node.js · Express.js</p>
+        </article>
+
+        <article class="skill-card">
+          <span>03</span>
+          <h3>Database</h3>
+          <p>MongoDB · MySQL</p>
+        </article>
+
+        <article class="skill-card">
+          <span>04</span>
+          <h3>Tools</h3>
+          <p>Git · GitHub · VS Code</p>
+        </article>
+      </div>
+    </section>
+
+  
+<!-- Projects Section -->
+<section class="projects section" id="projects">
+  <p class="eyebrow">03 / SELECTED WORK</p>
+
+  <div class="section-heading">
+    <h2>
+      Projects that make<br>
+      <span class="italic muted">ideas tangible.</span>
+    </h2>
+    <span class="project-count">01 — 03</span>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Project 1: Wanderlust -->
+    <article class="project-card project-featured">
+      <a
+        href="https://wanderlust-mern-pklr.onrender.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-art art-room"
+        aria-label="Explore Wanderlust project"
+      >
+        <img
+          src="assets/wanderlust.jpeg"
+          alt="Wanderlust room listing website preview"
+          class="project-preview preview-room"
+          loading="lazy"
+        >
+        <span class="art-caption">WANDERLUST / WEB APP</span>
+      </a>
+
+      <div class="project-info">
+        <p class="eyebrow">01 / FULL STACK</p>
+        <span class="tech-label">HTML · CSS · JavaScript</span>
+        <h3>Wanderlust</h3>
+        <p>
+          A room listing platform built to make finding
+          accommodation easier.
+        </p>
+        <a
+          href="https://wanderlust-mern-pklr.onrender.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-link"
+        >Explore project ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 2: Smart Calculator -->
+    <article class="project-card">
+      <a
+        href="https://github.com/pranjalmaurya563/CodeAlpha_Calculator"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-art art-calculator"
+        aria-label="View Smart Calculator repository"
+      >
+        <img
+          src="assets/calculator.jpeg"
+          alt="Smart Calculator with purple buttons and dark theme"
+          class="project-preview preview-calculator"
+          loading="lazy"
+        >
+        <span class="art-caption">CALCULATOR / INTERACTIVE</span>
+      </a>
+
+      <div class="project-info">
+        <p class="eyebrow">02 / JAVASCRIPT</p>
+        <span class="tech-label">HTML · CSS · JavaScript</span>
+        <h3>Smart Calculator</h3>
+        <p>
+          A functional calculator with calculation history
+          and a saved theme preference.
+        </p>
+        <a
+          href="https://github.com/pranjalmaurya563/CodeAlpha_Calculator"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-link"
+        >View repository ↗</a>
+      </div>
+    </article>
+
+    <!-- Project 3: Image Gallery -->
+    <article class="project-card">
+      <a
+        href="https://github.com/pranjalmaurya563/CodeAlpha_ImageGallery"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="project-art art-gallery"
+        aria-label="View Image Gallery repository"
+      >
+        <img
+          src="assets/gallery.jpeg"
+          alt="Image Gallery featuring nature photography and category filters"
+          class="project-preview preview-gallery"
+          loading="lazy"
+        >
+        <span class="art-caption">IMAGE GALLERY / UI</span>
+      </a>
+
+      <div class="project-info">
+        <p class="eyebrow">03 / FRONTEND</p>
+        <span class="tech-label">HTML · CSS · JavaScript</span>
+        <h3>Image Gallery</h3>
+        <p>
+          A visual gallery featuring image navigation,
+          interactive viewing, and responsive layouts.
+        </p>
+        <a
+          href="https://github.com/pranjalmaurya563/CodeAlpha_ImageGallery"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-link"
+        >View repository ↗</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+      <p class="eyebrow">04 / MY JOURNEY</p>
+      <h2>Learning today.<br>
+        <span class="italic muted">Building for tomorrow.</span>
+      </h2>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-date">CURRENT</span>
+          <div>
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p>Dr. Hari Singh Gour University</p>
+            <p>Building a foundation in computer science,
+              programming, and software development.</p>
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-date">INTERNSHIP</span>
+          <div>
+            <h3>Frontend Development Intern</h3>
+            <p>CodeAlpha</p>
+            <p>Developing practical frontend projects
+              using HTML, CSS, and JavaScript.</p>
+          </div>
+        </article>
+      </div>
+
+      <a href="assets/resume.pdf" class="btn btn-outline"
+         target="_blank" rel="noopener noreferrer">
+        View my resume ↗
+      </a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <p class="eyebrow">05 / LET'S CONNECT</p>
+
+      <h2>Have an idea?<br>
+        <span class="italic accent">Let's build something.</span>
+      </h2>
+
+      <p class="contact-description">
+        I'm interested in internships, collaborative projects,
+        and opportunities to learn from people building
+        meaningful technology.
+      </p>
+
+      <div class="contact-buttons">
+        <a href="https://www.linkedin.com/in/pranjalmaurya563"
+           target="_blank" rel="noopener noreferrer"
+           class="btn btn-dark">Connect on LinkedIn ↗</a>
+
+        <a href="https://github.com/pranjalmaurya563"
+           target="_blank" rel="noopener noreferrer"
+           class="btn btn-outline">Explore GitHub ↗</a>
+
+        <a href="mailto:pranjalmaurya784@gmail.com"
+           class="btn btn-outline">Email me ↗</a>
+      </div>
+
+      <div class="contact-footer">
+        <span>BASED IN INDIA</span>
+        <span>OPEN TO LEARNING & OPPORTUNITIES</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="brand">pranjal.</a>
+    <p>Designed & built with curiosity. © 2026</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
